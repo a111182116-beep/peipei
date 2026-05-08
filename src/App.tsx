@@ -162,9 +162,9 @@ export default function App() {
                 <div className="w-40 h-40 rounded-full border-4 border-[#A9C47F] p-1 mb-6 bg-white shadow-xl relative group">
                   <img 
                     referrerPolicy="no-referrer"
-                    src="/profile.jpg" 
+                    src="./profile.jpg" 
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = "profile.jpg";
+                      (e.target as HTMLImageElement).src = ".profile.jpg";
                     }}
                     alt="鄧欣佩" 
                     className="w-full h-full rounded-full object-cover transition-all duration-500 group-hover:scale-110"
@@ -378,7 +378,7 @@ export default function App() {
                   <div className="bg-[#FDFEF9] rounded-[3rem] border-4 border-dashed border-[#E5EAD0] aspect-[3/4] flex flex-col items-center justify-center text-[#A9C47F] group hover:border-[#A9C47F] transition-all relative overflow-hidden shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)]">
                      <img 
                        referrerPolicy="no-referrer"
-                       src="/avatar_3d.jpg" 
+                       src="./avatar_3d.jpg" 
                        alt="Your Photo"
                        className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 z-10"
                        onError={(e) => {
